@@ -53,14 +53,9 @@ f. Max ingin hasil dari setiap perhitungan dicatat dalam sebuah log yang diberi 
 
 **DOKUMENTASI**
 
-![Screenshot 2024-05-04 201010](https://github.com/haidarRA/Sisop-3-2024-MH-IT03/assets/150374973/9ff0e9ae-2657-41fb-b6b2-fe9fea45a24b)
-![Screenshot 2024-05-04 200942](https://github.com/haidarRA/Sisop-3-2024-MH-IT03/assets/150374973/c640cfe7-9b14-48f1-bc9d-e92aa056625b)
-![Screenshot 2024-05-04 200840](https://github.com/haidarRA/Sisop-3-2024-MH-IT03/assets/150374973/227e938b-6878-4425-8f05-78d9ed303ee0)
-![Screenshot 2024-05-04 201741](https://github.com/haidarRA/Sisop-3-2024-MH-IT03/assets/150374973/1ff4da07-04c7-4b64-838d-e8573a79abf5)
-![Screenshot 2024-05-04 201539](https://github.com/haidarRA/Sisop-3-2024-MH-IT03/assets/150374973/16b1dc58-d93f-4f74-826c-76a374c9c594)
-![Screenshot 2024-05-04 201420](https://github.com/haidarRA/Sisop-3-2024-MH-IT03/assets/150374973/a9f3ba10-8294-4d40-a02b-1aff9a82e018)
-![Screenshot 2024-05-04 201113](https://github.com/haidarRA/Sisop-3-2024-MH-IT03/assets/150374973/58505f52-e546-4258-bed2-2b12bd6ac29c)
-![Screenshot 2024-05-04 201043](https://github.com/haidarRA/Sisop-3-2024-MH-IT03/assets/150374973/ff7a836f-d8d4-40cb-8d5d-c1df631347bf)
+![Screenshot 2024-05-04 201741](https://github.com/haidarRA/Sisop-3-2024-MH-IT03/assets/150374973/fa53e177-8667-4acf-9268-dceb40f55fcd)
+
+
 
 **PERMASALAHAN YANG DIHADAPI SAAT PENGERJAAN**
 
