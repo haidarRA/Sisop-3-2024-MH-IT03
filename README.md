@@ -11,6 +11,82 @@
 
 
 # Soal 1
+
+**soal :**
+
+Pada zaman dahulu pada galaksi yang jauh-jauh sekali, hiduplah seorang Stelle. Stelle adalah seseorang yang sangat tertarik dengan Tempat Sampah dan Parkiran Luar Angkasa. Stelle memulai untuk mencari Tempat Sampah dan Parkiran yang terbaik di angkasa. Dia memerlukan program untuk bisa secara otomatis mengetahui Tempat Sampah dan Parkiran dengan rating terbaik di angkasa. Programnya berbentuk microservice sebagai berikut:
+Dalam auth.c pastikan file yang masuk ke folder new-entry adalah file csv dan berakhiran  trashcan dan parkinglot. Jika bukan, program akan secara langsung akan delete file tersebut. 
+Contoh dari nama file yang akan diautentikasi:
+belobog_trashcan.csv
+osaka_parkinglot.csv
+
+File csv yang lolos tahap autentikasi akan dikirim ke shared memory. 
+Dalam rate.c, proses akan mengambil data csv dari shared memory dan akan memberikan output Tempat Sampah dan Parkiran dengan Rating Terbaik dari data tersebut.
+
+Pada db.c, proses bisa memindahkan file dari new-data ke folder microservices/database, WAJIB MENGGUNAKAN SHARED MEMORY.
+Log semua file yang masuk ke folder microservices/database ke dalam file db.log dengan contoh format sebagai berikut:
+[DD/MM/YY hh:mm:ss] [type] [filename]
+ex : `[07/04/2024 08:34:50] [Trash Can] [belobog_trashcan.csv]
+
+Contoh direktori awal:
+
+.
+├──  auth.c
+├──  microservices
+│   ├──   database
+│   │   └──   db.log
+│   ├──  db.c
+│   └──  rate.c
+└──  new-data
+    ├──  belobog_trashcan.csv
+    ├──  ikn.csv
+    └──  osaka_parkinglot.csv
+
+Contoh direktori akhir setelah dijalankan auth.c dan db.c:
+
+.
+├── auth.c
+├── microservices
+│   ├── database
+│   │   ├── belobog_trashcan.csv
+│   │   ├── db.log
+│   │   └── osaka_parkinglot.csv
+│   ├── db.c
+│   └── rate.c
+└── new-data
+
+
+
+**STEP**
+
+1. mkdir soal_1 (mambuat direktori soal_1)
+2. cd soal_1(masuk ke direktori soal_1)
+3. mkdir new-data
+4. cd new-data
+5. buat file csv (belobog,parkinglot,ikn)
+6. cd ..
+7. mkdir microservices
+8. cd microservices 
+9. mkdir database
+10. buat db.log dengan touch (masih kosongan)
+11. cd..
+12.  sekalian buat rate.c dan db.c
+13.  cd ..
+14.  buat auth.c
+15.  run auth.c
+16.  run rate.c
+17.  run db.c
+
+
+**DOKUMENTASI**
+
+
+**PERMASALAHAN YANG DIHADAPI SAAT PENGERJAAN**
+
+1. Terdapat error
+   
+
+
 # Soal 2
 
 **soal :**
@@ -62,5 +138,9 @@ f. Max ingin hasil dari setiap perhitungan dicatat dalam sebuah log yang diberi 
 1. Terdapat error
 
 # Soal 3
+
+
+
+
 # Soal 4
 
