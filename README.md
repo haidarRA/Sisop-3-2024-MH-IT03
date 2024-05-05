@@ -41,9 +41,30 @@ e. Setelah diberi semangat, Max pun melanjutkan programnya dia ingin (pada child
 f. Max ingin hasil dari setiap perhitungan dicatat dalam sebuah log yang diberi nama histori.log. Pada parent process, lakukan pembuatan file log berdasarkan data yang dikirim dari child process. 
 
 **STEP**
-1. 
 
+1. mkdir soal_2 (mambuat direktori soal_2)
+2. cd soal_2 (masuk ke direktori soal_2)
+3. nano dudududu.c (membuka dan mengedit file dudududu.c)
+4.  gcc dudududu.c -o kalkulator (mengkompilasi file sumber C yang disebut "dudududu.c" menjadi sebuah program yang dapat dijalankan dengan nama "kalkulator")
+5.  ./kalkulator -kali (menjalankan program "kalkulator" dengan memberikan opsi untuk melakukan operasi perkalian)
+6.  ./kalkulator -bagi (menjalankan program "kalkulator" dengan memberikan opsi untuk melakukan operasi pembagian)
+7.  ./kalkulator -tambah (menjalankan program "kalkulator" dengan memberikan opsi untuk melakukan operasi penjumlahan)
+8.  ./kalkulator -kurang (menjalankan program "kalkulator" dengan memberikan opsi untuk melakukan operasi pengurangan)
 
+**DOKUMENTASI**
+
+![Screenshot 2024-05-04 201010](https://github.com/haidarRA/Sisop-3-2024-MH-IT03/assets/150374973/9ff0e9ae-2657-41fb-b6b2-fe9fea45a24b)
+![Screenshot 2024-05-04 200942](https://github.com/haidarRA/Sisop-3-2024-MH-IT03/assets/150374973/c640cfe7-9b14-48f1-bc9d-e92aa056625b)
+![Screenshot 2024-05-04 200840](https://github.com/haidarRA/Sisop-3-2024-MH-IT03/assets/150374973/227e938b-6878-4425-8f05-78d9ed303ee0)
+![Screenshot 2024-05-04 201741](https://github.com/haidarRA/Sisop-3-2024-MH-IT03/assets/150374973/1ff4da07-04c7-4b64-838d-e8573a79abf5)
+![Screenshot 2024-05-04 201539](https://github.com/haidarRA/Sisop-3-2024-MH-IT03/assets/150374973/16b1dc58-d93f-4f74-826c-76a374c9c594)
+![Screenshot 2024-05-04 201420](https://github.com/haidarRA/Sisop-3-2024-MH-IT03/assets/150374973/a9f3ba10-8294-4d40-a02b-1aff9a82e018)
+![Screenshot 2024-05-04 201113](https://github.com/haidarRA/Sisop-3-2024-MH-IT03/assets/150374973/58505f52-e546-4258-bed2-2b12bd6ac29c)
+![Screenshot 2024-05-04 201043](https://github.com/haidarRA/Sisop-3-2024-MH-IT03/assets/150374973/ff7a836f-d8d4-40cb-8d5d-c1df631347bf)
+
+**PERMASALAHAN YANG DIHADAPI SAAT PENGERJAAN**
+
+1. Terdapat error
 
 # Soal 3
 # Soal 4
