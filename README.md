@@ -306,5 +306,23 @@ soal_4/
 
 5. Hasil dari command "add" untuk menambahkan sebuah judul.
 
+![image](https://github.com/haidarRA/Sisop-3-2024-MH-IT03/assets/149871906/7675b834-406d-4ae6-81e9-7f4fb9e012df)
 
+![image](https://github.com/haidarRA/Sisop-3-2024-MH-IT03/assets/149871906/d1811c39-f02a-44ea-b5a5-9b46c4b790d8)
+
+6. Hasil dari command "edit" untuk mengedit judul.
+
+![image](https://github.com/haidarRA/Sisop-3-2024-MH-IT03/assets/149871906/87091208-8bc1-4b50-bc20-03167aeef547)
+
+![image](https://github.com/haidarRA/Sisop-3-2024-MH-IT03/assets/149871906/a2c9a425-37ef-4f77-972d-0a69c5516e90)
+
+7. Hasil dari command "delete" untuk menghapus sebuah judul.
+
+![image](https://github.com/haidarRA/Sisop-3-2024-MH-IT03/assets/149871906/a8873f89-b65f-4030-8bd0-b57758402b89)
+
+![image](https://github.com/haidarRA/Sisop-3-2024-MH-IT03/assets/149871906/ac6e985e-d18c-4eb7-8346-f5aa27779e90)
+
+8. Isi dari file change.log.
+
+![image](https://github.com/haidarRA/Sisop-3-2024-MH-IT03/assets/149871906/4f92f5ac-0502-4519-8bb0-1d14bac26029)
 
