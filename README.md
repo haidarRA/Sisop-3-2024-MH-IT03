@@ -207,6 +207,22 @@ Shall Leglerg🥶 dan Carloss Signs 😎 adalah seorang pembalap F1 untuk tim Fe
 **PERMASALAHAN YANG DIHADAPI SAAT PENGERJAAN**
 1. Tidak ada.
 
+**REVISI**
+1. Tidak ada
+
+**DOKUMENTASI**
+1. Hasil output dari server berdasarkan command - command yang digunakan.
+
+![image](https://github.com/haidarRA/Sisop-3-2024-MH-IT03/assets/149871906/db9c0dc7-b000-46b2-b7cb-8f18269acb11)
+
+2. Program paddock yang berjalan secara daemon.
+
+![image](https://github.com/haidarRA/Sisop-3-2024-MH-IT03/assets/149871906/f1fa910f-8693-46d9-817c-33fe9d82105b)
+
+3. Isi dari race.log.
+
+![image](https://github.com/haidarRA/Sisop-3-2024-MH-IT03/assets/149871906/98647c00-8027-4c75-97ed-32905b0c7862)
+
 # Soal 4
 Lewis Hamilton 🏎 seorang wibu akut dan sering melewatkan beberapa episode yang karena sibuk menjadi asisten. Maka dari itu dia membuat list anime yang sedang ongoing (biar tidak lupa) dan yang completed (anime lama tapi pengen ditonton aja). Tapi setelah Lewis pikir-pikir malah kepikiran untuk membuat list anime. Jadi dia membuat file (harap diunduh) dan ingin menggunakan socket yang baru saja dipelajarinya untuk melakukan CRUD pada list animenya. 
 1. Client dan server terhubung melalui socket. 
