@@ -129,7 +129,7 @@ f. Max ingin hasil dari setiap perhitungan dicatat dalam sebuah log yang diberi 
 
 **DOKUMENTASI**
 
-![Screenshot 2024-05-04 201741](https://github.com/haidarRA/Sisop-3-2024-MH-IT03/assets/150374973/fa53e177-8667-4acf-9268-dceb40f55fcd)
+![Screenshot 2024-05-10 133406](https://github.com/haidarRA/Sisop-3-2024-MH-IT03/assets/150374973/ae450fca-65b7-442c-858b-049628ba991a)
 
 
 
