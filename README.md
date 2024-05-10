@@ -271,17 +271,40 @@ soal_4/
         └── server.c
 
 **STEP**
-1. mkdir client
-2. cd client
-3. nano client.c
-4. gcc client.c -o client
-5. mkdir server
-6. cd server
-7. nano server.c
-8. gcc server.c -o server
-9. ./server
-10. ./client
+1. Download file myanimelist.csv secara manual dan diletakkan di dalam folder soal_4
+2. mkdir client
+3. cd client
+4. nano client.c
+5. gcc client.c -o client
+6. mkdir server
+7. cd server
+8. nano server.c
+9. gcc server.c -o server
+10. ./server
+11. ./client
 
 **PERMASALAHAN YANG DIHADAPI SAAT PENGERJAAN**
 1. Hasil dari command untuk menampilkan seluruh judul, baik semuanya (show), berdasarkan genre (genre), maupun hari (hari) kadang tidak konsisten. Misalnya, pada saat sebuah testing outputnya untuk command show hanya 16 baris yang kemudian dilanjutkan lagi dengan input command show untuk menampilkan sisanya. Namun, testing yang lain justru lancar - lancar saja dan seluruh judul dapat ditampilkan dalam 1 command saja (bukan 2).
 2. Setelah 1 sampai 2 command dari client ke server, program server tidak berfungsi lagi sehingga tidak ada output dari server ke client.
+
+**REVISI**
+1. Hasil dari command "show" untuk menampilkan seluruh judul.
+
+![image](https://github.com/haidarRA/Sisop-3-2024-MH-IT03/assets/149871906/60ebf869-7647-4f0c-9fe7-929b01c1d640)
+
+2. Hasil dari command "status" untuk menampilkan status sebuah anime.
+
+![image](https://github.com/haidarRA/Sisop-3-2024-MH-IT03/assets/149871906/ef330617-173c-48dc-b41f-a8f3d88ec6e7)
+
+3. Hasil dari command "genre" untuk menampilkan judul berdasarkan genre.
+
+![image](https://github.com/haidarRA/Sisop-3-2024-MH-IT03/assets/149871906/775d0b62-15b1-43fc-9710-930680920db1)
+
+4. Hasil dari command "hari" untuk menampilkan judul berdasarkan hari.
+
+![image](https://github.com/haidarRA/Sisop-3-2024-MH-IT03/assets/149871906/ff5d71f4-5a3e-4ca2-a030-ee5200ce9743)
+
+5. Hasil dari command "add" untuk menambahkan sebuah judul.
+
+
+
