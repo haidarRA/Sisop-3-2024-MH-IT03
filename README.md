@@ -30,6 +30,9 @@ ex : `[07/04/2024 08:34:50] [Trash Can] [belobog_trashcan.csv]
 
 Contoh direktori awal:
 
+
+```
+
 .
 ├──  auth.c
 ├──  microservices
@@ -55,7 +58,7 @@ Contoh direktori akhir setelah dijalankan auth.c dan db.c:
 │   └── rate.c
 └── new-data
 
-
+```
 
 **STEP**
 
