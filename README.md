@@ -306,6 +306,13 @@ soal_4/
 2. Setelah 1 sampai 2 command dari client ke server, program server tidak berfungsi lagi sehingga tidak ada output dari server ke client.
 
 **REVISI**
+1. Perubahan code untuk membuat log.
+2. Optimalisasi kode untuk menambahkan judul.
+
+Meskipun demikian, untuk permasalahan nomor 2 masih belum bisa diselesaikan.
+
+
+**DOKUMENTASI**
 1. Hasil dari command "show" untuk menampilkan seluruh judul.
 
 ![image](https://github.com/haidarRA/Sisop-3-2024-MH-IT03/assets/149871906/60ebf869-7647-4f0c-9fe7-929b01c1d640)
