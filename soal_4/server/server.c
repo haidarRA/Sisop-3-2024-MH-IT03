@@ -213,7 +213,16 @@ int main(int argc, char const *argv[]) {
         }
         else if(strcmp(input1, "add") == 0) {
             char output[8196] = {0};
-    	    fprintf(fcsv, "\n%s", input2);
+	    char addPath[100];
+	    strcpy(addPath, uPath);
+	    strcat(addPath, "/temp.csv");
+	    FILE *fadd = fopen(addPath, "a");
+	    while(fgets(line, sizeof(line), fcsv)) {
+	    	fprintf(fadd, "%s", line);
+	    }
+	    fprintf(fadd, "\n%s", input2);
+	    
+	    rename(addPath, csvPath);
 	    sprintf(tempRes, "anime berhasil ditambahkan\n");
 	    strcat(output, tempRes);
 	        
@@ -226,7 +235,10 @@ int main(int argc, char const *argv[]) {
                 strftime(date, 25, "[%d/%m/%Y]", localtime(&current_time));
                 fprintf(flog, "%s [ADD] %s ditambahkan.\n", date, splitComma(input2, 3));
             }
+		
             fclose(flog);
+            remove(addPath);
+            fclose(fadd);
         }
         else if(strcmp(input1, "delete") == 0) {
             char output[8196] = {0};
@@ -287,7 +299,7 @@ int main(int argc, char const *argv[]) {
                 char date[25];
                 time_t current_time = time(NULL);
                 strftime(date, 25, "[%d/%m/%Y]", localtime(&current_time));
-                fprintf(flog, "%s [ADD] %s diubah menjadi %s.\n", date, logLine, replacement);
+                fprintf(flog, "%s [EDIT] %s diubah menjadi %s.\n", date, logLine, replacement);
             }
             fclose(flog);
     	    remove(editPath);
