@@ -84,9 +84,24 @@ Contoh direktori akhir setelah dijalankan auth.c dan db.c:
 **DOKUMENTASI**
 
 
+
+
+![image](https://github.com/haidarRA/Sisop-3-2024-MH-IT03/assets/151866048/4eb76053-f20c-4565-8420-97c74bddb917)
+
+
+
+![image](https://github.com/haidarRA/Sisop-3-2024-MH-IT03/assets/151866048/a0684898-9cc6-4b94-b53f-03d6621f5c72)
+
+
+![image](https://github.com/haidarRA/Sisop-3-2024-MH-IT03/assets/151866048/165deef8-b809-4d55-be8e-8d5279b09b2e)
+
+
+
+
 **PERMASALAHAN YANG DIHADAPI SAAT PENGERJAAN**
 
 1. Terdapat error
+2. Revisi pada db.c karena tidak bisa memindah file csv saat demo, ternyata error pada vm dan compiler gcc maka dari itu tidak bisa merun!
    
 
 
